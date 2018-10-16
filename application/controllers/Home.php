@@ -6,6 +6,7 @@
 
   	public function __construct(){
        parent ::__construct();
+      
   	}
 
       public function index()
@@ -14,7 +15,7 @@
 	}
 
 	function h1() {
-		echo "This is a home function";
+		echo base_url();
 	}
     function add($a,$b) {
 		echo $a+$b;
